@@ -1,2 +1,2 @@
-# desafio-gestao-de-gastos
+# desafio-gestao-de-gastos-auth
 Desafio Gestão de Gastos
