@@ -24,8 +24,8 @@ public class AuthorizationServerConfigurer extends AuthorizationServerConfigurer
 	@Override
 	public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
 		clients.inMemory()
-			.withClient("loja")
-			.secret(passwordEncoder.encode("lojapwd"))
+			.withClient("cliente")
+			.secret(passwordEncoder.encode("clientepwd"))
 			.authorizedGrantTypes("password")
 			.scopes("web", "mobile");
 	}
